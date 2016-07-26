@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Stress Meter</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="NavHeader">Stress Meter</string>
+    <string name="StressQuote">Record your stress, mange your Life</string>
+    <string name="results">Results</string>
+    <string name="ImagePrompt">Touch the image that best captures how stressed you feel right now.</string>
+    <string name="moreButton">More Images</string>
+    <string name="submitButton">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="time">Time</string>
+    <string name="stress">Stress</string>
+    <string name="sumary_reslts">Summary of Results</string>
+    <string name="reultsTitle">A Graph Showing your Stress Levels</string>
+    <string name="axisY">Stress Level</string>
+    <string name="meter">Record Your Stress</string>
+</resources>

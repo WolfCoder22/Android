@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"  android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+    <PreferenceCategory
+        android:title="Account Preferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <PreferenceScreen
+            android:title="@string/UserProfile"
+            android:summary="@string/userProfileEntries">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="alexwolf.cs.dartmouth.edu.myruns"
+                android:targetClass="alexwolf.cs.dartmouth.edu.myruns.UserProfileActivity"/>
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:key="privacy_setting"
+            android:title="@string/privacySetting"
+            android:summary="@string/privacyExplained" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Additional Settings" >
+
+        <ListPreference
+            android:key="unit_preference"
+            android:title="@string/title_unit_preference"
+            android:summary="@string/summary_unit_preference"
+            android:entries="@array/entries_unit_preference"
+            android:entryValues="@array/entryvalues_list_preference"
+            android:dialogTitle="@string/title_unit_preference"
+            />
+
+        <EditTextPreference
+            android:key="user_comment"
+            android:title="@string/comment"
+            android:summary="@string/course_suggestions"
+            android:dialogTitle="@string/comment" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Misc." >
+
+        <PreferenceScreen
+            android:title="@string/homepage"
+            android:summary="@string/class_link">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://www.cs.dartmouth.edu/~campbell/cs65/cs65.html" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Comment" type="id">Comment</item>
+    <item name="HeartRate" type="id">Heart Rate</item>
+    <item name="Calories" type="id">Calories</item>
+    <item name="Distance" type="id">Distance</item>
+    <item name="Duration" type="id">Duration</item>
+    <item name="comment" type="id">Comment</item>
+</resources>

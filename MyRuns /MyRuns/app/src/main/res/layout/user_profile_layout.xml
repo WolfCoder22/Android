@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:paddingStart="40dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:fontFamily="San Sarif"
+            android:textColor="#ff33cc" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="146dp"
+                android:id="@+id/imageProfile"
+                android:layout_marginBottom="10dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <requestFocus/>
+            </ImageView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/change_button"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/changebutton" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:id="@+id/textViewName"
+            android:textSize="16sp"
+            android:textColor="#163dbf" />
+
+        <EditText android:id="@+id/edit_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/nameAsk"
+            android:inputType="textCapSentences"
+            android:textSize="12sp"
+            android:singleLine="true"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:id="@+id/Email"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="#163dbf" />
+
+        <EditText android:id="@+id/user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:hint="@string/emailAsk"
+            android:inputType="textEmailAddress"
+            android:textSize="12sp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:id="@+id/Phone"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="#163dbf" />
+
+        <EditText android:id="@+id/user_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:hint="@string/phoneAsk"
+            android:inputType="phone"
+            android:textSize="12sp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender"
+            android:id="@+id/user_gender"
+            android:layout_marginTop="10dp"
+            android:textColor="#163dbf" />
+
+
+        <RadioGroup
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/genderRadios"
+            >
+
+            <RadioButton
+                android:id="@+id/radio_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male"
+                android:checked="false"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:textColor="#459b9b"
+                android:buttonTint="#ffffff" />
+            <RadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female"
+                android:checked="false"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="80dp"
+                android:textColor="#459b9b"
+                android:buttonTint="#ffffff" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Class"
+            android:id="@+id/classs"
+            android:layout_marginTop="10dp"
+            android:textColor="#163dbf" />
+
+        <EditText android:id="@+id/user_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/classEx"
+            android:inputType="number"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/major"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:textColor="#163dbf" />
+
+        <EditText android:id="@+id/user_major"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/majorAsk"
+            android:inputType="textCapSentences"
+            android:textSize="12sp"
+            android:singleLine="true"/>
+
+        <LinearLayout
+            android:layout_width="317dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:weightSum="2"
+            android:layout_marginRight="30dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save_button"
+                android:id="@+id/save_button"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel_button"
+                android:id="@+id/cancel_button"
+                android:layout_gravity="bottom"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

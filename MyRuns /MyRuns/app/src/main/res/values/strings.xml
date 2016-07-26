@@ -1,0 +1,63 @@
+<resources>
+    <string name="startButton">Start</string>
+    <string name="syncButton">Sync</string>
+    <string name="app_name">My Runs</string>
+    <string name="activityType">Activity Type</string>
+    <string name="inputType">Input Type</string>
+    <string name="title_activity_map_display">Map</string>
+    <string name="cancelButton">Cancel</string>
+    <string name="userProfileEntries">Name, Major, Class Year, Etc..</string>
+    <string name="privacySetting">Privacy Setting</string>
+    <string name="title_unit_preference">Unit Preference</string>
+    <string name="summary_unit_preference">Select the units in which you would like to see distance values</string>
+    <string name="comment">Comment</string>
+    <string name="course_suggestions">Any suggestions to this course?</string>
+    <string name="homepage">Class homepage</string>
+    <string name="class_link">http://www.cs.dartmouth.edu/~campbell/cs65/cs65.html</string>
+    <string name="UserProfile">User Profile</string>
+    <string name="privacyExplained">Posting your records anonymously</string>
+
+    <string name="name">Name</string>
+    <string name="nameAsk">Your Name Here</string>
+    <string name="emailAsk">student@dartmouth.edu</string>
+    <string name="settings">User Settings</string>
+    <string name="classEx">Ex. 2018</string>
+    <string name="Class">Class</string>
+    <string name="email">Email</string>
+    <string name="change_button">Change</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="phoneAsk">Ex. 914#602#4824</string>
+    <string name="profilePhoto">Profile Photo</string>
+    <string name="phone">Phone</string>
+    <string name="profile_photo_file_name">ProfilePic.png</string>
+    <string name="major">Major</string>
+    <string name="majorAsk">Ex. Computer Science</string>
+    <string name="preference_name">preference.key.myruns</string>
+    <string name="genderKey">gkey</string>
+    <string name="emailKey">ekey</string>
+    <string name="nameKey">nkey</string>
+    <string name="phoneKey">pkey</string>
+    <string name="classKey">ckey</string>
+    <string name="majorKey">mkey</string>
+    <string name="dialog_fragment_photo_picker">dialog_fragment_photo_picker</string>
+    <string name="ui_profile_photo_picker_title">Select profile image</string>
+    <string name="date">Date</string>
+    <string name="duration">Duration (minutes)</string>
+    <string name="okButtonString">Ok</string>
+    <string name="cancelButtonString">Cancel</string>
+    <string name="class_comment">How did it go? Enter notes here.</string>
+    <string name="heart_rate">Average Heart Rate (BPM):</string>
+    <string name="calories">Calories:</string>
+    <string name="distance">Distance (Miles)</string>
+    <string name="dateTime">Date and Time</string>
+    <string name="Delete">Delete</string>
+    <string name="saveButton">Save</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="google_app_id">91216249540</string>
+</resources>
