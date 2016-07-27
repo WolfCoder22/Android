@@ -1,3 +1,4 @@
 # Android
 All the Android Apps I have worked on excluding the one for my venture
-Drtpropies is linked to another repo so it won't show pubicly
+
+Dartpropies is linked to another repo so I can't show it pubicly
